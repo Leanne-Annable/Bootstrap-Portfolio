@@ -2,13 +2,19 @@
 .custom-nav{
     position: fixed;
     width: 100%;
-    background-color:rgba(255, 255, 255, 0.85) !important;
+    background-color:rgba(255, 255, 255, 0.9) !important;
     z-index: 10;
+}
+
+.navbar-brand{
+    font-size: 1.8em;
+    font-weight: 620;
 }
 
 .navbar-nav{
     margin-left: auto;
     margin-right: 0 !important;
+    font-size: 1.4em;
 }
 
 
@@ -18,24 +24,35 @@
     background-image: url(../images/Sunset-Fuji.jpg);
     background-size: cover;
     background-position: center;
-    height:400px;
+    justify-content: space-evenly;
 }
 
 .hero-custom {
     display: flex;
     height: 290px;
+    width: 100%;
     justify-content: space-between;
     padding-right: 50px;
-    padding-top: 15px;
+    padding-top: 30px;
     margin-left: 20px;
+    margin-right: 20px;
+}
+.container{
+    width: 100%;
 }
 
 .display-4{
+    text-align: end;
     font-size: 4em;
     font-weight:600;
     color:ghostwhite;
 }
 
+#portrait {
+    height: 250px;
+    margin: 20px;
+    border-radius: 50%;
+}
 
 /* projects section */
 .section-heading {
@@ -55,11 +72,6 @@
     position: relative;
     display: flex;
     margin-bottom: 20px;
-}
-
-.card-container{
-    /* padding-left: 15px;
-    padding-right: 15px; */
 }
 
 .card-img-top{
@@ -84,35 +96,49 @@
     border-color: bisque;
 }
 
+.btn:hover {
+    
+}
+
 /* skills/about me sections */
 .about-me {
     display: flex;
-}
-
-.skills{
-    text-align: center;
-}
-
-.skills ul{
-    display: inline-block;
-}
-
-.skills li{
-    text-align: left ;
+    flex-wrap: wrap;
 }
 
 .about {
     text-align: center;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-#portrait {
-    height: 200px;
-    border-radius: 50%;
+.skills{
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 20px;
+
 }
+
+.skill-list{
+    text-align: center;
+    list-style: none;
+    padding-left: 0;
+}
+
+.fab {
+    font-size: large;
+}
+
+
+
+
 /* contact me section */
 
-.contact-me{
-    display: inline-flex;
+.card-section{
+    display: flex;
+    justify-content: center;
 }
 
 /* footer section */
